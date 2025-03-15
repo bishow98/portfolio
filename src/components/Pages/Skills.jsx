@@ -1,6 +1,6 @@
 
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa';
-import { SiTailwindcss, SiTypescript, SiRedux, SiNextdotjs, SiMongodb, SiFirebase } from 'react-icons/si';
+import { SiTailwindcss, SiRedux, SiMongodb, SiMysql } from 'react-icons/si';
 
 const Skills = () => {
   // Define your skills with categories
@@ -12,7 +12,6 @@ const Skills = () => {
         { name: "CSS3", icon: <FaCss3Alt />, level: 90 },
         { name: "JavaScript", icon: <FaJs />, level: 85 },
         { name: "React", icon: <FaReact />, level: 90 },
-        { name: "TypeScript", icon: <SiTypescript />, level: 80 },
         { name: "Tailwind CSS", icon: <SiTailwindcss />, level: 85 },
       ]
     },
@@ -21,9 +20,8 @@ const Skills = () => {
       skills: [
         { name: "Node.js", icon: <FaNodeJs />, level: 75 },
         { name: "Redux", icon: <SiRedux />, level: 80 },
-        { name: "Next.js", icon: <SiNextdotjs />, level: 75 },
         { name: "MongoDB", icon: <SiMongodb />, level: 70 },
-        { name: "Firebase", icon: <SiFirebase />, level: 80 },
+        { name: "MySQL", icon: <SiMysql />, level: 80 },
         { name: "Git", icon: <FaGitAlt />, level: 85 },
       ]
     }
@@ -84,7 +82,7 @@ const Skills = () => {
             Other Technologies I Work With
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {['REST API', 'GraphQL', 'Webpack', 'SASS', 'Jest', 'Figma', 'Material UI', 'Responsive Design', 'PWA', 'Vercel', 'SEO'].map((tech, index) => (
+            {['REST API','Figma', 'Material UI', 'Responsive Design', 'Vercel', 'Shadcn ui'].map((tech, index) => (
               <span 
                 key={index} 
                 className="px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors"

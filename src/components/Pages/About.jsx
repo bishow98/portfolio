@@ -1,7 +1,7 @@
 import myImg from "../../assets/bishowDV.webp"
 import { FaCode, FaLaptopCode, FaUserGraduate } from 'react-icons/fa';
 
-const AboutSection = () => {
+const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4 md:px-6">
@@ -30,7 +30,7 @@ const AboutSection = () => {
               
               {/* Experience badges */}
               <div className="absolute -bottom-4 -right-4 bg-blue-600 dark:bg-blue-500 text-white py-2 px-4 rounded-full shadow-lg z-20">
-                <span className="font-bold">5+ Years Experience</span>
+                <span className="font-bold">1+ Years Experience</span>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ const AboutSection = () => {
           {/* Right side - Text content */}
           <div className="flex flex-col space-y-6">
             <h3 className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-white">
-              Frontend Developer & UI/UX Enthusiast
+              FullStack Developer 
             </h3>
             
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
@@ -48,7 +48,7 @@ const AboutSection = () => {
             </p>
             
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              My journey in web development began in 2018, and since then, I&apos;ve worked on various 
+              My journey in web development began in 2022, and since then, I&apos;ve worked on various 
               projects ranging from small business websites to complex web applications. I&apos;m constantly 
               learning and exploring new technologies to stay at the forefront of web development.
             </p>
@@ -79,4 +79,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default About;

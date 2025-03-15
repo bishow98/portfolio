@@ -1,4 +1,5 @@
 import myImage from "../../assets/bishowDV.webp"
+import mycv from "../../assets/ResumeBishowChauhan.pdf"
 
 // const HeroSection = () => {
 //   return (
@@ -20,15 +21,14 @@ import myImage from "../../assets/bishowDV.webp"
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const HeroSection = () => {
-  // Replace with your actual information
   const personalInfo = {
     name: "Bishow Chauhan",
     title: "FullStack Developer",
     description: "I'm a passionate frontend developer with expertise in React, Tailwind CSS, and modern JavaScript. I love creating responsive, user-friendly applications that solve real-world problems.",
-    cvPath: "/path-to-your-cv.pdf", // Replace with actual path to your CV
+    cvPath: mycv, 
     githubUrl: "https://github.com/bishow98",
     linkedinUrl: "https://linkedin.com/in/bishow-chauhan-b1a269228",
-    profileImage: `${myImage}` // Replace with actual path to your image
+    profileImage: `${myImage}` 
   };
 
   return (

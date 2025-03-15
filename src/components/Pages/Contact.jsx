@@ -83,10 +83,10 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-medium text-gray-800 dark:text-white mb-1">Email</h4>
                   <a 
-                    href="mailto:your.email@example.com" 
+                    href="mailto:bishowchauhan.dev@gmail.com" 
                     className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    your.email@example.com
+                    bishowchauhan.dev@gmail.com
                   </a>
                 </div>
               </div>
@@ -98,10 +98,10 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-medium text-gray-800 dark:text-white mb-1">Phone</h4>
                   <a 
-                    href="tel:+1234567890" 
+                    href="tel:+977 9804374649" 
                     className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    +1 (234) 567-890
+                    +977 9804374649
                   </a>
                 </div>
               </div>
@@ -113,7 +113,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-medium text-gray-800 dark:text-white mb-1">Location</h4>
                   <p className="text-gray-600 dark:text-gray-300">
-                    San Francisco, CA, United States
+                    Itahari, Sunsari, Nepal
                   </p>
                 </div>
               </div>
@@ -157,7 +157,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    placeholder="John Doe"
+                    placeholder="Your name"
                     className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-800 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-colors"
                   />
                 </div>
@@ -173,7 +173,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    placeholder="john@example.com"
+                    placeholder="name@example.com"
                     className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-800 dark:text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-colors"
                   />
                 </div>

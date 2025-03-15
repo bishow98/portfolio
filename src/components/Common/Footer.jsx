@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram} from 'react-icons/fa';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -17,10 +17,10 @@ const Footer = () => {
   
   // Social media links
   const socialLinks = [
-    { name: "GitHub", icon: <FaGithub />, url: "https://github.com/yourusername" },
-    { name: "LinkedIn", icon: <FaLinkedin />, url: "https://linkedin.com/in/yourusername" },
+    { name: "GitHub", icon: <FaGithub />, url: "https://github.com/bishow98" },
+    { name: "LinkedIn", icon: <FaLinkedin />, url: "https://linkedin.com/in/bishow-chauhan-b1a269228" },
     { name: "Twitter", icon: <FaTwitter />, url: "https://twitter.com/yourusername" },
-    { name: "Instagram", icon: <FaInstagram />, url: "https://instagram.com/yourusername" }
+    { name: "Instagram", icon: <FaInstagram />, url: "https://instagram.com/" }
   ];
 
   return (
@@ -30,10 +30,10 @@ const Footer = () => {
           {/* About/Logo Section */}
           <div className="lg:col-span-2">
             <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-              Mylogo
+              Bishow
             </Link>
             <p className="text-gray-400 mt-4 pr-4">
-              A passionate frontend developer focused on creating modern, responsive web experiences.
+              A passionate fullstack developer focused on creating modern, responsive web experiences.
               I&apos;m always open to new challenges and opportunities to grow.
             </p>
             
@@ -74,22 +74,22 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>San Francisco, CA</li>
-              <li>United States</li>
+              <li>Itahari, Sunsari</li>
+              <li>Nepal</li>
               <li className="pt-2">
                 <a 
-                  href="mailto:your.email@example.com" 
+                  href="mailto:bishowchauhan.dev@gmail.com" 
                   className="hover:text-blue-400 transition-colors"
                 >
-                  your.email@example.com
+                 bishowchauhan.dev@gmail.com
                 </a>
               </li>
               <li>
                 <a 
-                  href="tel:+1234567890" 
+                  href="tel:+977 9804374649" 
                   className="hover:text-blue-400 transition-colors"
                 >
-                  +1 (234) 567-890
+                  +977 9804374649
                 </a>
               </li>
             </ul>
@@ -120,11 +120,11 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 dark:border-gray-700 pt-8 text-center">
           <p className="text-gray-500 text-sm">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Bishow Chauhan. All rights reserved.
           </p>
-          <p className="text-gray-500 text-sm mt-2 flex items-center justify-center">
+          {/* <p className="text-gray-500 text-sm mt-2 flex items-center justify-center">
             Made with <FaHeart className="text-red-500 mx-1" /> and React
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>
