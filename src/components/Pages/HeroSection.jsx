@@ -22,8 +22,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const HeroSection = () => {
   // Replace with your actual information
   const personalInfo = {
-    name: "John Doe",
-    title: "Frontend Developer",
+    name: "Bishow Chauhan",
+    title: "FullStack Developer",
     description: "I'm a passionate frontend developer with expertise in React, Tailwind CSS, and modern JavaScript. I love creating responsive, user-friendly applications that solve real-world problems.",
     cvPath: "/path-to-your-cv.pdf", // Replace with actual path to your CV
     githubUrl: "https://github.com/bishow98",
