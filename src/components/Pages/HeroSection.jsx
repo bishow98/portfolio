@@ -24,7 +24,7 @@ const HeroSection = () => {
   const personalInfo = {
     name: "Bishow Chauhan",
     title: "FullStack Developer",
-    description: "I'm a passionate frontend developer with expertise in React, Tailwind CSS, and modern JavaScript. I love creating responsive, user-friendly applications that solve real-world problems.",
+    description: "I'm a passionate Fullstack developer with expertise in React, Tailwind CSS, Node, express, mongoDB, and modern JavaScript. I love creating responsive, user-friendly applications that solve real-world problems.",
     cvPath: mycv, 
     githubUrl: "https://github.com/bishow98",
     linkedinUrl: "https://linkedin.com/in/bishow-chauhan-b1a269228",
